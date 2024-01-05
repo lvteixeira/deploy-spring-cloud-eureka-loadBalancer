@@ -31,7 +31,7 @@ RUN ls -al /app/gradle
 
 
 # Build the application
-RUN ./gradlew build
+RUN ./gradlew clean build
 
 # Expose the port that the application will run on
 EXPOSE 8888
