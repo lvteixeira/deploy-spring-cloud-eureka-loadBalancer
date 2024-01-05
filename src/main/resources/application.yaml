@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://https://spring-cloud-eurekaserver.onrender.com:8761/eureka/
+      defaultZone: http://spring-cloud-eurekaserver.onrender.com:8761/eureka/
     instance:
       instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
       prefer-ip-address: false
